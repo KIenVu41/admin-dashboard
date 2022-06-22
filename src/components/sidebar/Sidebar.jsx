@@ -7,7 +7,9 @@ import {LineStyle, Timeline, TrendingUp, PermIdentity,
     DynamicFeed,
     ChatBubbleOutline,
     WorkOutline,
-    Report} from '@material-ui/icons';
+    Report,
+    Category,
+  Comment} from '@material-ui/icons';
 import { Link } from "react-router-dom";
 
 export default function Sidebar() {
@@ -42,16 +44,36 @@ export default function Sidebar() {
               Users
             </li>
           </Link>
+          <Link to="/users" className="link">
+            <li className="sidebarListItem">
+              <PermIdentity className="sidebarIcon" />
+              Sellers
+            </li>
+          </Link>
           <Link to="/products" className="link">
             <li className="sidebarListItem">
               <Storefront className="sidebarIcon" />
               Products
             </li>
           </Link>
+          <Link to="/categories" className="link">
+            <li className="sidebarListItem">
+              <Category className="sidebarIcon" />
+              Categories
+            </li>
+          </Link>
+          <Link to="/reviews" className="link">
+            <li className="sidebarListItem">
+              <Comment className="sidebarIcon" />
+              Reviews
+            </li>
+          </Link>
+          <Link to="/order" className="link">
           <li className="sidebarListItem">
             <AttachMoney className="sidebarIcon" />
-            Transactions
+            Orders
           </li>
+          </Link>
           <li className="sidebarListItem">
             <BarChart className="sidebarIcon" />
             Reports

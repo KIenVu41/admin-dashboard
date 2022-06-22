@@ -64,6 +64,21 @@ export const productData = [
   },
 ];
 
+export const categoryData = [
+  {
+    name: "Jan",
+    Sales: 4000,
+  },
+  {
+    name: "Feb",
+    Sales: 3000,
+  },
+  {
+    name: "Mar",
+    Sales: 5000,
+  },
+];
+
 export const userRows = [
   {
     id: 1,
@@ -157,6 +172,39 @@ export const userRows = [
   },
 ];
 
+export const categoryRows = [
+  {
+    id: 1,
+    name: "Label",
+    icon: "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    activity: "active",
+  },
+  {
+    id: 2,
+    name: "Label",
+    icon: "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    activity: "active",
+  },
+  {
+    id: 3,
+    name: "Label",
+    icon: "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    activity: "active",
+  },
+  {
+    id: 4,
+    name: "Label",
+    icon: "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    activity: "active",
+  },
+  {
+    id: 5,
+    name: "Label",
+    icon: "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    activity: "active",
+  },
+];
+
 export const productRows = [
   {
     id: 1,
@@ -237,5 +285,78 @@ export const productRows = [
     stock: 123,
     status: "active",
     price: "$120.00",
+  },
+];
+
+export const orderRows = [
+  {
+    id: 1,
+    activity: "active",
+    status: "Shipped",
+    mode: "COD",
+    discount: "10%",
+    shipping: 111,
+    total: 222.33,
+    promo: "aaaa",
+    first_name: "sss",
+    last_name: "sss",
+    phone: "0988222111",
+    email: "abc@gmail.com",
+  },
+  {
+    id: 2,
+    activity: "active",
+    status: "Shipped",
+    mode: "COD",
+    discount: "10%",
+    shipping: 111,
+    total: 222.33,
+    promo: "aaaa",
+    first_name: "sss",
+    last_name: "sss",
+    phone: "0988222111",
+    email: "abc@gmail.com",
+  },
+  {
+    id: 3,
+    activity: "active",
+    status: "Shipped",
+    mode: "COD",
+    discount: "10%",
+    shipping: 111,
+    total: 222.33,
+    promo: "aaaa",
+    first_name: "sss",
+    last_name: "sss",
+    phone: "0988222111",
+    email: "abc@gmail.com",
+  },
+  {
+    id: 4,
+    activity: "active",
+    status: "Shipped",
+    mode: "COD",
+    discount: "10%",
+    shipping: 111,
+    total: 222.33,
+    promo: "aaaa",
+    first_name: "sss",
+    last_name: "sss",
+    phone: "0988222111",
+    email: "abc@gmail.com",
+  },
+  {
+    id: 5,
+    activity: "active",
+    status: "Shipped",
+    mode: "COD",
+    discount: "10%",
+    shipping: 111,
+    total: 222.33,
+    promo: "aaaa",
+    first_name: "sss",
+    last_name: "sss",
+    phone: "0988222111",
+    email: "abc@gmail.com",
   },
 ];
